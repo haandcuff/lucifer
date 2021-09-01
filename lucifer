@@ -1,0 +1,264 @@
+local Luc = Instance.new("ScreenGui")
+local Main = Instance.new("Frame")
+local Left = Instance.new("Frame")
+local TextLabel = Instance.new("TextLabel")
+local UIGradient = Instance.new("UIGradient")
+local TextLabel_2 = Instance.new("TextLabel")
+local star = Instance.new("ImageButton")
+local Credits = Instance.new("TextLabel")
+local TextLabel_3 = Instance.new("TextLabel")
+local TextLabel_4 = Instance.new("TextLabel")
+local Left_2 = Instance.new("Frame")
+local Fly = Instance.new("TextButton")
+local Left_3 = Instance.new("Frame")
+local Headless = Instance.new("TextButton")
+
+--Properties:
+
+Luc.Name = "Luc"
+Luc.Parent = game.CoreGui
+Luc.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+
+Main.Name = "Main"
+Main.Parent = Luc
+Main.BackgroundColor3 = Color3.fromRGB(16, 17, 18)
+Main.BorderColor3 = Color3.fromRGB(16, 17, 18)
+Main.Position = UDim2.new(0.182437554, 0, 0.188304096, 0)
+Main.Size = UDim2.new(0, 759, 0, 414)
+
+Left.Name = "Left"
+Left.Parent = Main
+Left.BackgroundColor3 = Color3.fromRGB(10, 10, 13)
+Left.BorderColor3 = Color3.fromRGB(10, 10, 13)
+Left.Size = UDim2.new(0, 160, 0, 414)
+
+TextLabel.Parent = Left
+TextLabel.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.BackgroundTransparency = 1.000
+TextLabel.Position = UDim2.new(0.0854395404, 0, 0.0192193575, 0)
+TextLabel.Size = UDim2.new(0, 114, 0, 29)
+TextLabel.Font = Enum.Font.ArialBold
+TextLabel.Text = "LUCIFER"
+TextLabel.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel.TextScaled = true
+TextLabel.TextSize = 14.000
+TextLabel.TextWrapped = true
+
+UIGradient.Color = ColorSequence.new{ColorSequenceKeypoint.new(0.00, Color3.fromRGB(53, 53, 53)), ColorSequenceKeypoint.new(0.75, Color3.fromRGB(235, 235, 235)), ColorSequenceKeypoint.new(1.00, Color3.fromRGB(255, 255, 255))}
+UIGradient.Parent = TextLabel
+
+TextLabel_2.Parent = Left
+TextLabel_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.BorderColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_2.Position = UDim2.new(0.0854395404, 0, 0.0973766148, 0)
+TextLabel_2.Size = UDim2.new(0, 139, 0, 0)
+TextLabel_2.Font = Enum.Font.SourceSans
+TextLabel_2.Text = " "
+TextLabel_2.TextColor3 = Color3.fromRGB(0, 0, 0)
+TextLabel_2.TextSize = 14.000
+
+star.Name = "star"
+star.Parent = Left
+star.BackgroundTransparency = 1.000
+star.LayoutOrder = 5
+star.Position = UDim2.new(0.792879939, 0, 0.0192193575, 0)
+star.Size = UDim2.new(0, 25, 0, 25)
+star.ZIndex = 2
+star.Image = "rbxassetid://3926305904"
+star.ImageRectOffset = Vector2.new(116, 4)
+star.ImageRectSize = Vector2.new(24, 24)
+
+Credits.Name = "Credits"
+Credits.Parent = Left
+Credits.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+Credits.BackgroundTransparency = 1.000
+Credits.Position = UDim2.new(0, 0, 0.839673877, 0)
+Credits.Size = UDim2.new(0, 82, 0, 20)
+Credits.Font = Enum.Font.ArialBold
+Credits.Text = "Credits:"
+Credits.TextColor3 = Color3.fromRGB(255, 255, 255)
+Credits.TextScaled = true
+Credits.TextSize = 14.000
+Credits.TextWrapped = true
+
+TextLabel_3.Parent = Credits
+TextLabel_3.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.BackgroundTransparency = 1.000
+TextLabel_3.Position = UDim2.new(0.158536583, 0, 1, 0)
+TextLabel_3.Size = UDim2.new(0, 105, 0, 18)
+TextLabel_3.Font = Enum.Font.ArialBold
+TextLabel_3.Text = "by: chris `#0001"
+TextLabel_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_3.TextScaled = true
+TextLabel_3.TextSize = 14.000
+TextLabel_3.TextWrapped = true
+
+TextLabel_4.Parent = Credits
+TextLabel_4.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.BackgroundTransparency = 1.000
+TextLabel_4.Position = UDim2.new(-0.158536583, 0, 1.89999998, 0)
+TextLabel_4.Size = UDim2.new(0, 115, 0, 14)
+TextLabel_4.Font = Enum.Font.ArialBold
+TextLabel_4.Text = "UI: 97qn"
+TextLabel_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+TextLabel_4.TextScaled = true
+TextLabel_4.TextSize = 14.000
+TextLabel_4.TextWrapped = true
+
+Left_2.Name = "Left"
+Left_2.Parent = Main
+Left_2.BackgroundColor3 = Color3.fromRGB(10, 10, 13)
+Left_2.BorderColor3 = Color3.fromRGB(10, 10, 13)
+Left_2.Position = UDim2.new(0.784342289, 0, 0, 0)
+Left_2.Size = UDim2.new(0, 163, 0, 414)
+
+Fly.Name = "Fly"
+Fly.Parent = Main
+Fly.BackgroundColor3 = Color3.fromRGB(10, 10, 13)
+Fly.BorderColor3 = Color3.fromRGB(10, 10, 13)
+Fly.Position = UDim2.new(0.233201578, 0, 0.0869565234, 0)
+Fly.Size = UDim2.new(0, 120, 0, 50)
+Fly.Font = Enum.Font.ArialBold
+Fly.Text = "Fly "
+Fly.TextColor3 = Color3.fromRGB(255, 255, 255)
+Fly.TextSize = 22.000
+Fly.TextWrapped = true
+Fly.MouseButton1Down:connect(function()
+	repeat wait() until game.Players.LocalPlayer.Character
+
+	local plr = game.Players.LocalPlayer
+	local char = plr.Character
+	local hum = char:WaitForChild("Humanoid")
+	local Torso = char:WaitForChild("LowerTorso")
+	local Mouse = plr:GetMouse()
+	local toggle = false
+
+	Mouse.KeyDown:Connect(function(key)
+		if key == "x" then
+			if toggle == false then
+				toggle = true
+				local Anim = Instance.new("Animation")
+				Anim.AnimationId = "rbxassetid://7378246754"
+				local PlayAnim = hum:LoadAnimation(Anim)
+				PlayAnim:Play()
+				local BV = Instance.new("BodyVelocity",Torso)
+				BV.MaxForce = Vector3.new(math.huge,math.huge,math.huge)
+				while toggle == true do
+					BV.Velocity = Mouse.Hit.lookVector*100
+					wait()
+				end
+			end
+			if toggle == true then
+				toggle = false
+				Torso:FindFirstChildOfClass("BodyVelocity"):remove()
+				local tracks = hum:GetPlayingAnimationTracks()
+				for i, stoptracks in pairs(tracks) do
+					stoptracks:Stop()
+				end
+				local Anim = Instance.new("Animation")
+				Anim.AnimationId = "http://www.roblox.com/asset/?id=507767968"
+				local PlayAnim = hum:LoadAnimation(Anim)
+				PlayAnim:Play()
+			end
+		end
+	end)
+end)
+
+Left_3.Name = "Left"
+Left_3.Parent = Main
+Left_3.BackgroundColor3 = Color3.fromRGB(10, 10, 13)
+Left_3.BorderColor3 = Color3.fromRGB(10, 10, 13)
+Left_3.Size = UDim2.new(0, 655, 0, 7)
+
+Headless.Name = "Headless"
+Headless.Parent = Main
+Headless.BackgroundColor3 = Color3.fromRGB(10, 10, 13)
+Headless.BorderColor3 = Color3.fromRGB(10, 10, 13)
+Headless.Position = UDim2.new(0.233201578, 0, 0.253623188, 0)
+Headless.Size = UDim2.new(0, 120, 0, 50)
+Headless.Font = Enum.Font.ArialBold
+Headless.Text = "Headless"
+Headless.TextColor3 = Color3.fromRGB(255, 255, 255)
+Headless.TextSize = 22.000
+Headless.TextWrapped = true
+Headless.MouseButton1Down:connect(function()
+	game.Players.LocalPlayer.Character.Head.Transparency = 1
+	for i,v in pairs(game.Players.LocalPlayer.Character.Head:GetChildren()) do
+		if (v:IsA("Decal")) then
+			v:Destroy()
+		end
+	end
+
+
+-- Scripts:
+
+local function RSEAIKO_fake_script() -- Fly.LocalScript 
+	local script = Instance.new('LocalScript', Fly)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local function callback(Text)
+			if Text == "ok" then
+				print ("Answer")
+			elseif Text == ("shut up already") then
+				print ("Answer2")
+			end
+		end
+	
+		local NotificationBindable = Instance.new("BindableFunction")
+		NotificationBindable.OnInvoke = callback
+		--
+		game.StarterGui:SetCore("SendNotification",  {
+			Title = "Fly activated!";
+			Text = "Enjoy.";
+			Icon = "http://www.roblox.com/asset/?id=7083340276";
+			Duration = 5;
+			Button1 = "ok";
+			Button2 = "shut up already";
+			Callback = NotificationBindable;
+		})
+	end)
+end
+coroutine.wrap(RSEAIKO_fake_script)()
+local function LEOPJ_fake_script() -- Main.Open/Close 
+	local script = Instance.new('LocalScript', Main)
+
+	player = game.Players.LocalPlayer
+	
+	player:GetMouse().KeyDown:Connect(function(key)
+		if key == "v" and script.Parent.Visible == false then
+			script.Parent.Visible = true
+		else
+			if key == "v" and script.Parent.Visible == true then
+				script.Parent.Visible = false
+			end
+		end
+	end)
+end
+coroutine.wrap(LEOPJ_fake_script)()
+local function FKELQ_fake_script() -- Headless.LocalScript 
+	local script = Instance.new('LocalScript', Headless)
+
+	script.Parent.MouseButton1Down:connect(function()
+		local function callback(Text)
+			if Text == "ok" then
+				print ("Answer")
+			elseif Text == ("shut up already") then
+				print ("Answer2")
+			end
+		end
+	
+		local NotificationBindable = Instance.new("BindableFunction")
+		NotificationBindable.OnInvoke = callback
+		--
+		game.StarterGui:SetCore("SendNotification",  {
+			Title = "Headless activated!";
+			Text = "Enjoy.";
+			Icon = "http://www.roblox.com/asset/?id=7083340276";
+			Duration = 5;
+			Button1 = "ok";
+			Button2 = "shut up already";
+			Callback = NotificationBindable;
+		})
+	end)
+end
+coroutine.wrap(FKELQ_fake_script)()
